@@ -63,3 +63,9 @@ body {
 #tableModal .radio {
     margin-left: 5%;
 }
+
+#myCarouselButtons {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
