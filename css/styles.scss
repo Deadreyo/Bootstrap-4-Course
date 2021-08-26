@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$modal-radio-leftMargin: 15px;
 
 //Height variable
 $carousel-item-height: 300px;
@@ -73,4 +74,23 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal {
+
+    .modal-header {
+        color: floralwhite;
+        background-color: $background-dark;
+        .close {
+            color: floralwhite;
+        }
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+
+        .radio {
+            margin-left: $modal-radio-leftMargin;
+        }
+    }
 }
